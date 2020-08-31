@@ -1,0 +1,2 @@
+Mikkel Strand, 1234, false
+Jacob Dolleris, 123456, false
