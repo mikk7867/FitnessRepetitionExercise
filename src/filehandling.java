@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class filehandling {
     public static void printer(ArrayList<person> Persons) throws FileNotFoundException {
-        PrintStream output = new PrintStream(new File("C:\\Users\\Mikkel\\IdeaProjects\\Fitness Repetition Exercise\\src\\persons.txt"));
+        PrintStream output = new PrintStream(new File("src\\persons.txt"));
         for(int i = 0; i < Persons.size();i++) {
             output.println(Persons.get(i));
         }
     }
 
     public static void reader(ArrayList<person> Persons) throws FileNotFoundException {
-        File file = new File("C:\\Users\\Mikkel\\IdeaProjects\\Fitness Repetition Exercise\\src\\persons.txt");
+        File file = new File("src\\persons.txt");
         Scanner output = new Scanner(file);
         Persons.clear();
         while(output.hasNextLine()){

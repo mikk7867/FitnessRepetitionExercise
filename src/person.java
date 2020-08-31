@@ -38,6 +38,7 @@ public class person {
                 break;
             default:
                 System.out.println("Invalid menu choice, please try again");
+                break;
         }
     }
 

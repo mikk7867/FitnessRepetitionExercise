@@ -13,7 +13,7 @@ public class instructor extends employee {
         String[] line = {"Name :", "CPR number :"};
         for(int i = 0; i < line.length; i++) {
             System.out.print(line[i]);
-            String input = console.next();
+            String input = console.nextLine();
             list.add(input);
         }
         System.out.print("Hours: ");

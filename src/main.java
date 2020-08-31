@@ -13,8 +13,8 @@ public class main {
         do{
             sepparator();
             System.out.println("Input 1 to register a person");
-            System.out.println("Press 2 to view data");
-            System.out.println("Press 0 to exit the program");
+            System.out.println("Input 2 to view data");
+            System.out.println("Input 0 to exit the program");
             sepparator();
             String menuChoice = console.next(); //fejl hvis man inputter andet end tal, løst ved at bruge String i stedet for int
             switch(menuChoice){

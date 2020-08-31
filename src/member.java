@@ -41,24 +41,24 @@ public class member extends person  {
         }
         System.out.println("Input 1 for 'Basic' membership: ");
         System.out.println("Input 2 for 'Full' membership: ");
-        int i = 1;
+        boolean i = true;
         boolean b = false;
         do {
             String input = console.next();
             switch (input) {
                 case "1":
                     b = true;
-                    i = 0;
+                    i = false;
                     break;
                 case "2":
                     b = false;
-                    i = 0;
+                    i = false;
                     break;
                 default:
                     System.out.println("Invalid menu choice, please try again");
                     break;
             }
-        }while (i == 1);
+        }while(i);
         person m = new member(first[0],first[1],b);
         Persons.add(m);
     }

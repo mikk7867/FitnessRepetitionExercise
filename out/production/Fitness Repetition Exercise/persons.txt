@@ -1,1 +1,3 @@
-Mikkel Strand, 1234, false
+Mikkel Strand, 123456-0009, false
+Karl Strand, 555555-1237, true
+Jacob Dolleris, 123456-4321, 37, 23000, 5

@@ -1,2 +1,5 @@
-Mikkel Strand, 1234, false
-Jacob Dolleris, 123456, false
+Mikkel Strand, 123456-0009, false
+Karl Strand, 555555-1237, true
+Jacob Dolleris, 123456-4321, 37, 23000, 5
+Tobias Collin, 121212-2121, 23, 10488
+Rasmus Bech, 666666-4321, 29, 13224

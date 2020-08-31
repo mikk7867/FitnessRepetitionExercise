@@ -20,7 +20,7 @@ public class admin extends employee {
         String[] line = {"Name :", "CPR number :"};
         for(int i = 0; i < line.length; i++) {
             System.out.print(line[i]);
-            String input = console.next();
+            String input = console.nextLine();
             list.add(input);
         }
         person i = new admin(list.get(0), list.get(1), 37, 23000, 5);
